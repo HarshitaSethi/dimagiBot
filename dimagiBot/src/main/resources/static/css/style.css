@@ -1,0 +1,150 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Aug 26, 2022, 3:05:38 PM
+    Author     : harshita.sethi
+*/
+
+body{
+    /*background: red;*/
+    overflow: hidden;
+    height: 100vh;
+}
+
+.chatbox{
+    /*background: #ededed;*/
+    border: 1px solid black;
+    width: 50vw;
+}
+
+.chatHead{
+    background:  rgb(1, 111, 185);
+    color: white;
+}
+
+.chater {
+    overflow-y: auto;
+    height: 70vh;
+}
+.chater div {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: baseline;
+}
+.chater .chat {
+    padding: 7px 10px;
+    border-radius: 10px;
+    background-color: #2d8ccd;
+    margin: 5px 0px;
+    /* width:80%;
+    */
+    font-size: 13px;
+    text-align: left;
+    color: #fff;
+    text-align: left;
+    display: block;
+}
+.chater div mark {
+    padding: 0px;
+}
+.chater p {
+    margin: 0px;
+    font-size: 11px;
+    font-weight: bold;
+    color: #5f5d5d;
+    margin-bottom: 10px;
+}
+.chater p.userInput {
+    text-align: left !important;
+}
+.chater p.botReply {
+    text-align: right !important;
+}
+.chater h6 {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #e6ebf1;
+    margin: 5px 0px;
+    width: 100%;
+    font-size: 13px;
+    text-align: left;
+    color: #000;
+    text-align: right;
+}
+.profile {
+    height: 30px;
+    width: 36px;
+    border-radius: 25PX;
+    background-color: #2d8ccd;
+    margin-right: 10px;
+    display: flex;
+    align-items: center !important;
+    text-align: left;
+    justify-content: center;
+}
+/*.lavtar-profile {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: #2d8ccd;
+    line-height: 30px;
+    text-align: center;
+}*/
+/*.w-47 {
+    width: 47%;
+}*/
+.chat {
+    width: 100%;
+    margin: 5px 0px;
+}
+/*.text-mute {
+    color: #000 94;
+}*/
+/*.dateForm {
+    border-radius: 6px;
+    border: 1px solid #000 40;
+    padding: 4px 0px;
+}*/
+/*.error-border {
+    border: 1px solid red !important;
+}*/
+.userDiv {
+    display: flex;
+    flex-direction: row !important;
+}
+.userDiv div {
+    margin-left: 10px !important;
+    height: 30px;
+    width: 36px;
+    border-radius: 25PX;
+    background-color: #e6ebf1;
+    display: flex;
+    align-items: center !important;
+    text-align: left;
+    justify-content: center;
+}
+/*.date {
+    text-align: center;
+    margin-bottom: 0px !important;
+    position: relative;
+}
+.date::before {
+    content: '';
+    height: 0.5px;
+    width: 39%;
+    background-color: #000 4d;
+    position: absolute;
+    left: 0px;
+    bottom: 8px;
+}
+.date::after {
+    content: '';
+    height: 0.5px;
+    width: 39%;
+    background-color: #000 4d;
+    position: absolute;
+    right: 0px;
+    bottom: 8px;
+}*/
